@@ -11,7 +11,7 @@ class GeminiAdapter(LLMInterface):
         self.configure_api()
 
     def configure_api(self):
-        load_dotenv()
+        load_dotenv() 
         genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
     def _construct_messages(self, context):
