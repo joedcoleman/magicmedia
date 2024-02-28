@@ -1,0 +1,4 @@
+magicmedia/output
+magicmedia/input
+.env
+*.egg-info
