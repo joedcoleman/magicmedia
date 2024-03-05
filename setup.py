@@ -15,6 +15,8 @@ setup(
         "json_repair",
         "tiktoken",
         "html2text",
-        "python-dotenv"
+        "python-dotenv",
+        "assemblyai",
+        "google-cloud-speech",
     ],
 )

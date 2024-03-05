@@ -1,6 +1,6 @@
 import os
 from website_provider import WebsiteContentProvider
-from models import Asset, InputAssets
+from ..models import Asset, InputAssets
 
 class BlogPostProvider(WebsiteContentProvider):
     def __init__(self, config):

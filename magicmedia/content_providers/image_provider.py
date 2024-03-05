@@ -3,7 +3,7 @@ import requests
 from urllib.parse import urlparse
 from PIL import Image
 from io import BytesIO
-from models import Asset, InputAssets
+from ..models import Asset, InputAssets
 from .content_provider_interface import ContentProviderInterface
 
 class ImageProvider(ContentProviderInterface):

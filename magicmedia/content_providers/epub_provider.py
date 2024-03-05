@@ -1,6 +1,6 @@
 import ebooklib
 from ebooklib import epub
-from models import Asset
+from ..models import Asset
 
 class EpubProvider:
     def __init__(self, file_path):
