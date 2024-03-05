@@ -18,5 +18,6 @@ setup(
         "python-dotenv",
         "assemblyai",
         "google-cloud-speech",
+        "pydantic>=2.6.2"
     ],
 )
