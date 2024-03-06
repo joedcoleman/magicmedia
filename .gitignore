@@ -1,4 +1,5 @@
 magicmedia/output
 magicmedia/input
+examples
 .env
 *.egg-info

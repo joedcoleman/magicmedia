@@ -244,7 +244,7 @@ class AssemblyAIVideoProvider(VideoProvider):
 
         print(f"Transcription time: {end_time - start_time} seconds")
 
-        return transcript["text"]
+        return transcript.text
 
     def generate_diarized_transcript(self):
         config = aai.TranscriptionConfig(speaker_labels=True)
